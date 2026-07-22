@@ -2,6 +2,7 @@ body {
     background-color: rgb(247, 247, 193);
     color: #2f2a25;
 }
+
 header {
     background-color: beige;
     width: auto;
@@ -15,10 +16,17 @@ nav a {
 }
 h1 {
      text-align: center;
-     color: #2f2a25;
+     color: black;
+    backdrop-filter: contrast(0.15);
 }
-p{
+p {
     text-align: center;
+    backdrop-filter: contrast(0.18);
+}
+.Brand{
+ color: black;
+}
+.tagline{
     color: black;
 }
 div {
