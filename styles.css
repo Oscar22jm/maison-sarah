@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(247, 247, 193);
     color: #2f2a25;
+    margin: 0;
 }
 
 html {
@@ -12,7 +17,43 @@ body {
     font-size: 1.6rem;
     line-height: 1.6;
 }
+.header-bar{
+    display: flex;
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    align-items: center;
+    max-height: 6rem
+}
+.container{
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    flex-direction: column;
+    max-height: 29rem
+}
+.footer-line{
+    text-align: center;
+    padding: auto;
+}
+.image{
+    max-width: 100%
+}
+.food{
+    display: flex;
+    padding: auto;
+}
+.card-row{
 
+        height: 62vh;
+        flex-wrap: nowrap;
+        gap: var(0.05rem); 
+}
+.article-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header {
     background-color: beige;
     width: auto;
@@ -38,7 +79,7 @@ h2 {
     }
 p {
     text-align: left;
-    backdrop-filter: contrast(0.18);
+    color: #2f2a25;
 }
 .Brand{
  color: black;
@@ -47,6 +88,16 @@ p {
     color: black;
     text-align: center
 }
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e3d9c9;
+    padding: 1.6rem;
+    max-width: 28rem;
+}
+
+.card img {
+    width: 100%;
+}
 div {
     display: flex;
         justify-content: center;
@@ -54,7 +105,9 @@ div {
         height: 80vh;
 }
 footer{
-    background-color: rgb(241, 241, 234);
+    background-color: rgb(255, 255, 243);
+    padding: auto;
+    align-items: center;
 }
 .footer-line{
     width: 100%;
