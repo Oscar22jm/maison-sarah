@@ -54,6 +54,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+.table-styles{
+        border-collapse: collapse;
+        padding-inline-end: 15rem;
+    }
+thead th {
+    background-color: #363232;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
 header {
     background-color: beige;
     width: auto;
