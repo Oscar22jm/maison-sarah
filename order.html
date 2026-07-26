@@ -18,8 +18,28 @@
     <main>
         <div class="container">
             <h1> Welcome to the Number one Bakery in town</h1>
-            <p> Our order form is under construction ! </p>
+            <p> fill out the form with the information required so we can prepare your order! </p>
         </div>
+    <form class="order-form" action="/my-handling-form-page" method="post">
+        <p>
+            <label class="field-name" for="name">who is picking up:</label>
+            <input type="text" id="name" name="user_name" />
+        </p>
+        <p>
+            <label class="field" for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+        </p>
+        <p>
+            <label class="field" for="day">pick up day:</label>
+            <input type="day" id="day" name="user_day" />
+        </p>
+        <p>
+            <label class="field" for="msg">Your order:</label>
+            <textarea id="msg" name="user_order"></textarea>
+        </p>
+
+        <button type="submit" class="submit-btn">Submit Order</button>
+    </form>
     </main>
     <footer>
         <h2>Come visit us in Person at Wonderland Str. 123</h2>
