@@ -54,6 +54,44 @@ body {
     justify-content: center;
     align-items: center;
 }
+.table-styles{
+        border-collapse: collapse;
+        padding-inline-end: 15rem;
+    }
+.order-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+.field:focus{
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    border: 1px solid #c9bda9;
+    width: 100%;
+    max-width: 40rem;
+    border-radius: 15rem;
+        border-color: #363232;
+}
+.field-name :required{
+  font-family: "Lato", sans-serif;
+}
+.submit-btn{
+    font-family: "Lato", sans-serif;
+    border-radius: 15rem;
+    border-color: #363232;
+    background-color: #e3d9c9;
+}
+thead th {
+    background-color: #363232;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
 header {
     background-color: beige;
     width: auto;
@@ -66,9 +104,8 @@ nav a {
     text-align: center;
 }
 h1 {
-     text-align: center;
-     color: black;
-    backdrop-filter: contrast(0.15);
+    text-align: center;
+    color: black;
     font-family: "Playfair Display", serif;
     font-size: 3.6rem;
     letter-spacing: 0.05rem;
